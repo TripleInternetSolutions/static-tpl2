@@ -14,10 +14,10 @@ mix
     .setPublicPath(`assets`)
     .js(`src/js/app.js`, `assets/js`)
     .extract([
-        'bootstrap',
+        //'bootstrap',
         'jquery',
-        'popper.js',
-        'slick-carousel',
+        //'popper.js',
+        //'glider-js',
     ])
     .sass(`src/sass/vendor.scss`, `assets/css`)
     .sass(`src/sass/app.scss`, `assets/css`)
